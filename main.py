@@ -3,7 +3,7 @@ from pyrogram import Client as Bot
 
 from callsmusic import run
 from config import API_HASH, API_ID, BOT_TOKEN
-
+from handlers import __version__
 
 bot = Bot(
     ":memory:",
